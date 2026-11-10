@@ -1,4 +1,4 @@
-# goldhold-ai
+# GoldHold
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-goldhold-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://goldhold.ai/
+GoldHold provides persistent memory for AI agents, enabling shared knowledge across multiple AI systems such as Claude and OpenClaw. The platform stores learned information in a unified memory that any integrated AI can access, ensuring continuity and context retention. It aims to simplify AI development by offering a cloud-based, scalable solution for memory management, enhancing collaboration and efficiency among AI agents.
+
+**Areas:** AI · Memory · Platform · Cloud · Company
+
+## GoldHold on APIs.io
+
+Everything profiled for GoldHold is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/goldhold-ai/](https://apis.io/providers/goldhold-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [GoldHold Memory API](https://apis.io/apis/goldhold-ai/goldhold-memory-api/) — GoldHold is a persistent semantic memory system for AI agents.
+- [GoldHold Memory API API](https://apis.io/apis/goldhold-ai/goldhold-memory-api-api/) — GoldHold is a persistent semantic memory system for AI agents.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [MemoryDeleteRequest](https://apis.io/schemas/goldhold-ai/goldhold-ai-memory-delete-request/)
+- [MemorySaveRequest](https://apis.io/schemas/goldhold-ai/goldhold-ai-memory-save-request/)
+- [MemorySearchRequest](https://apis.io/schemas/goldhold-ai/goldhold-ai-memory-search-request/)
+- [MemorySearchResult](https://apis.io/schemas/goldhold-ai/goldhold-ai-memory-search-result/)
+- [MemoryStatsResponse](https://apis.io/schemas/goldhold-ai/goldhold-ai-memory-stats-response/)
+- [RelaySendRequest](https://apis.io/schemas/goldhold-ai/goldhold-ai-relay-send-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Goldhold Ai Context](https://apis.io/jsonld/goldhold-ai/goldhold-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GoldHold API Rules](https://apis.io/rules/goldhold-ai/goldhold-ai-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [GoldHold Domain Security](https://apis.io/security/goldhold-ai/goldhold-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://goldhold.ai/)
+- [Documentation](https://goldhold.ai/docs)
+- [Changelog](https://goldhold.ai/changelog)
+- [Blog](https://goldhold.ai/blog/why-ai-forgets)
+- [Security](https://goldhold.ai/security)
+- [Terms of service](https://goldhold.ai/terms)
+- [Privacy policy](https://goldhold.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 46.6** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 26.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/goldhold-ai/](https://apis.io/providers/goldhold-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GoldHold: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/goldhold-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
